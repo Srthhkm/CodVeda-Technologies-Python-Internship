@@ -9,7 +9,7 @@ def multiplication(a, b):
 
 def division(a, b):
     if b == 0:
-        return "Error: Division by zero"            # error if divided by zero
+        return "Error: Division by zero"            # handled divided by zero error
     return a / b            # return division result
 
 
@@ -23,8 +23,8 @@ def main():
     choice = input("Choose operation (1/2/3/4): ")
 
     try:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
+        a = float(input("Enter first number: "))            # input first no.
+        b = float(input("Enter second number: "))           # input second no.
 
         if choice == '1':
             print("Result:", addition(a, b))
