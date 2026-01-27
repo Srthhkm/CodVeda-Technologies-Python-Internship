@@ -9,7 +9,7 @@ def multiplication(a, b):
 
 def division(a, b):
     if b == 0:
-        return "Error: Division by zero"            # handled divided by zero error
+        return "Error: Division by zero"            # handled divide by zero error
     return a / b            # return division result
 
 
