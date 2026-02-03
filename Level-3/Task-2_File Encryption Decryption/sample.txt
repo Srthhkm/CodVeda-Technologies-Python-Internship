@@ -1,0 +1,2 @@
+This is a sample file for encryption.
+Aim is to verify the working of the File Encryption and Decryption system designed specifically. 
